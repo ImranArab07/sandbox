@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0055a5;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: white ; /* Verander de kleur wanneer de gebruiker over de link hovert */
+}
+
+
+.car-catalog {
+    padding: 2rem;
+}
+
+.car-catalog h2 {
+    text-align: center;
+}
+
+.cars {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.car img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-button:hover {
+    background-color: #003d7a;
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    /* Algemeen */
+    body {
+
+        .item {
+            flex: 1;
+            margin: 10px;
+            background-color: lightblue;
+        }
+
+    }
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex; /* Flexbox om de sidebar en main content naast elkaar te plaatsen */
+        min-height: 100vh; /* Pagina minimaal de hoogte van het venster */
+    }
+
+    .sidebar {
+        width: 250px; /* Breedte van de sidebar */
+        background-color: #333; /* Donkere achtergrondkleur */
+        color: white; /* Witte tekstkleur */
+        padding: 20px;
+        height: 100vh; /* Sidebar neemt volledige hoogte van het scherm in */
+        position: sticky; /* Sidebar blijft vaststaan tijdens scrollen */
+        top: 0; /* Begin bovenaan het scherm */
+    }
+
+    .sidebar h3 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #555;
+        padding-bottom: 0.5rem;
+    }
+
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .sidebar ul li {
+        margin-bottom: 1rem;
+    }
+
+    .sidebar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        display: block;
+    }
+
+    .sidebar ul li a:hover {
+        text-decoration: underline;
+    }
+
+    /* Hoofdinhoud */
+    .main-content {
+        flex: 1; /* De main-content neemt de resterende ruimte in */
+        padding: 20px;
+        background-color: #f4f4f4; /* Lichte achtergrondkleur voor contrast met de sidebar */
+    }
+
+    /* Footer */
+    footer {
+        background-color: #003d7a;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        width: 100%;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
